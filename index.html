@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+
+        <meta charset="utf-8">
+        
+        <title>Etapa3</title>
+        
+        <link href='http://fonts.googleapis.com/css?family=OpenSans:300,400,700' rel='stylesheet' type='text/css'>
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        
+   </head>
+   
+   
+<body>   
+	<section>
+        
+    	 <div class="formulario">  
+
+            <form action="" method="post" id="validate">                  
+                    
+                <label>Nome</label>
+                <input name="nome" type="text" class="g">
+
+                <label>Empresa</label>
+                <input name="" type="text" class="g">
+                
+                <label>Cargo dentro da empresa</label>
+                <input name="" type="text" class="g">
+
+                <label>Telefone</label>
+                <input name="" type="text" class="p" id="telefone">
+
+                <label>Celular</label>
+                <input name="" type="text" class="p" id="celular">
+                <input type="submit" value="Enviar" onclick="ga('send', 'event', 'Category', 'click', 'Label', 'Value');">
+            </form>
+    	</div><!--/formulario-->
+                
+    </section>
+    
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'XX-XXXXXXXX-X');
+  ga('send', 'event', 'Category', 'Action', 'Label', 'Value');
+</script>
+      
+
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
+    <script type="text/javascript" src="js/jquery.validate.min.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58087941-1"></script>
+  
+
+</body>
+</html>
+
